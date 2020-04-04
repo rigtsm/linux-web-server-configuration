@@ -14,6 +14,9 @@ The Apache web server is currently the most popular web server in the world
     sudo apt-get install apache2
 
     ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+    
+    # the easy way to get the external ip is
+    curl ifconfig.me
 
     lynx localhost
 
@@ -77,3 +80,6 @@ The root directory where the web pages are seved is /var/www/html/ . Lest create
 
 - [Lita IRC Chat Bot](https://www.digitalocean.com/community/tutorials/how-to-install-the-lita-chat-bot-for-irc-on-ubuntu-14-04)
 
+
+# TO DO : Publish to [google Cloud](https://www.christitus.com/wordpress-google-cloud-platform/)
+# Free web hosting

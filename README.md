@@ -135,7 +135,13 @@ Now I will create a snapshot of the current state of the virutal machine:
     vagrant snapshot delete
 
 
+# web applicationStack  [Configuration](https://classroom.udacity.com/courses/ud299/lessons/4340119836/concepts/48065785530923)
 
+Tasks:
+- Install and configure Apache HTTP server
+- Install PostgreSQL
+- Dynamic websites and data driven application with Python
 
+![img](./project_descr.png)
 
 
