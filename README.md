@@ -126,6 +126,8 @@ Server configured and ready for installing and testing software
 
 Now I will create a snapshot of the current state of the virutal machine:
 
+    vagrant sapshot list
+    
     vagrant snapshot save 'linux-basic-configuration'
 
     vagrant snapshot restore
@@ -133,37 +135,6 @@ Now I will create a snapshot of the current state of the virutal machine:
     vagrant snapshot delete
 
 
-
-# Stack Web application 
-
-## [Initial Server Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
-
-## ["LAMP" Stack (Linux, Apache, MySQL, PHP)](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
-
-A “LAMP” stack is a group of open source software that is typically installed together to enable a server to host dynamic websites and web apps. This term is actually an acronym which represents the Linux operating system, with the Apache web server. The site data is stored in a MySQL database, and dynamic content is processed by PHP.
-
-### 1. Install Apache
-The Apache web server is currently the most popular web server in the world
-
-    sudo apt-get update
-
-    sudo apt-get install apache2
-
-    lynx localhost
-
-
-
-
-
-
-
-- ["LEMP" Stack (Linux, nginx, MySQL, PHP)](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04)
-
-- [PEPS Mail and File Storage](https://www.digitalocean.com/community/tutorials/how-to-run-your-own-mail-server-and-file-storage-with-peps-on-ubuntu-14-04)
-
-- [Mail-in-a-Box Email Server](https://www.digitalocean.com/community/tutorials/how-to-run-your-own-mail-server-with-mail-in-a-box-on-ubuntu-14-04)
-
-- [Lita IRC Chat Bot](https://www.digitalocean.com/community/tutorials/how-to-install-the-lita-chat-bot-for-irc-on-ubuntu-14-04)
 
 
 
